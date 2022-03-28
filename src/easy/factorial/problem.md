@@ -1,4 +1,4 @@
-# Multiples of 3 or 5
+# Factorial
 
 Find the product of all positive integers less than or equal to any given number. This is known as the _factorial_ (denoted by _!_):
 
