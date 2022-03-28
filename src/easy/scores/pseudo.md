@@ -1,5 +1,6 @@
 # Pseudo Code Solution
 
+```text
 for each item in the list
     if the item is below the min threshold
         make the item the min threshold
@@ -7,3 +8,4 @@ for each item in the list
         make the item the max threshold
     otherwise
         leave the item as is
+```
