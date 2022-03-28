@@ -6,6 +6,8 @@ But I know that some of the judges are biased giving really low or really high s
 
 For example, if my 5 judges give me scores [1,3,5,7,9] and the low threshold is 2, and the high threshold is 8, then the expected outcome is the scores [2,3,5,7,8] because the 1 gets rounded up to the 2 and the 9 gets rounded down to the 8.
 
-So with the inputs of scores =  [1,3,5,7,9], low threshold = 2, high threshold 8, the expected outcome is [2,3,5,7,8]
+So with the inputs of scores =  [1,3,5,7,9], low threshold = 2, high threshold 8, the expected outcome is [2,3,5,7,8], e.g.
 
-That's the requirement I'd like you to implement for me! At any point feel free to ask questions to clarify what you need to do or if you get stuck.
+```js
+[1,3,5,7,9], 2, 8 => [2,3,5,7,8]
+```
