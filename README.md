@@ -34,4 +34,4 @@ This repo contains a number of problems. To solve the problems, do the following
         3. Add a [pseudo code](https://en.wikipedia.org/wiki/Pseudocode) version of the plain English solution in the file _pseudo.md_
         4. Only after you've completed steps 2. and 3. should you attempt to code up a javascript solution in the file _solution.js_
             1. You javascript solution should be in the form of a function that returns your solution
-        5. Is your solution correct? Check your answer with different inputs
+        5. Is your solution correct? If you're able, try checking your answer with different inputs
