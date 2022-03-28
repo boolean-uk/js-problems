@@ -13,14 +13,14 @@ This repo contains a number of problems for which you are required to provide:
 
 ## Introduction
 
-[Pólya](https://en.wikipedia.org/wiki/George_P%C3%B3lya), in his classic book about problem solving, [How to solve it](https://www.amazon.co.uk/How-Solve-Mathematical-Penguin-Science/dp/0140124993), outlined the general approach to problem solving:
+A general approach to problem solving is as follows:
 
 1. Understand the problem
 2. Draw experience from related problems to plan an approach to this problem
 3. Try to solve the problem, based on 1. and 2.
 4. Check your solution. Is it correct?
 
-This repository is aimed at making Pólya's approach explicit.
+This repository requires you to use that approach.
 
 ## Exercise
 
@@ -34,4 +34,4 @@ This repo contains a number of problems. To solve the problems, do the following
         3. Add a [pseudo code](https://en.wikipedia.org/wiki/Pseudocode) version of the plain English solution in the file _pseudo.md_
         4. Only after you've completed steps 2. and 3. should you attempt to code up a javascript solution in the file _solution.js_
             1. You javascript solution should be in the form of a function that returns your solution
-
+        5. Is your solution correct? Check your answer with different inputs
