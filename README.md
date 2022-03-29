@@ -33,7 +33,7 @@ This repo contains a number of problems. To solve the problems, do the following
         2. Add a plain English description of the proposed solution in the file _plain.md_
         3. Add a [pseudo code](https://en.wikipedia.org/wiki/Pseudocode) version of the plain English solution in the file _pseudo.md_
         4. Only after you've completed steps 2. and 3. should you attempt to code up a javascript solution in the file _solution.js_
-            1. You javascript solution should be in the form of a function that returns your solution
+            1. Your javascript should be in the form of a function that returns your solution
         5. Is your solution correct? If you're able, try checking your answer with different inputs
 
 _Hint_: An example of a completed exercise is in the directory [src/easy/scores](src/easy/scores).
