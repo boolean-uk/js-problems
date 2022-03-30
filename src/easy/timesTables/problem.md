@@ -1,6 +1,6 @@
 # Times Tables
 
-Find all the multiplication tables from 1 through 12, up to 12? For example:
+Find all the multiplication tables from 1 through 12, up to 12. For example:
 
 ## 7 times table
 
