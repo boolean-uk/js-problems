@@ -63,12 +63,8 @@ function morseCharacterConverter(englishLetter){
     } else if (englishLetter === 'z') {
         morseLetter = ' --.. '
     } else if (englishLetter === ' ') {
-        morseLetter = '   '
-    } else if  (englishLetter === '.') {
-        morseLetter = ''
-    } else if (englishLetter === '?') {
-        morseLetter = ''
-    } else if (englishLetter === '!') {
+        morseLetter = '     '
+    } else {
         morseLetter = ''
     }
     return morseLetter
