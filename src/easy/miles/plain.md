@@ -1,2 +1,2 @@
 # Plain English Solution
-convert kilometers into miles
+Change kilometers to miles using rounding function
