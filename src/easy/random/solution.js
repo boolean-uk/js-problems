@@ -1,5 +1,5 @@
-function getRandom(num1, num2, num3) {
-  return Math.random();
+function getRandomArbitrary(num1, num2) {
+  return Math.random() * (num2 - num1) + num1;
 }
 
-console.log(getRandom(3, 6, 9));
+console.log(getRandomArbitrary(3, 12));
