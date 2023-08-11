@@ -18,5 +18,5 @@ function makeSentence(str) {
     return str
 }
 
-givenStr = 'hello mate'
+const givenStr = 'hello mate'
 console.log('Turned', givenStr,'to',makeSentence(givenStr))
