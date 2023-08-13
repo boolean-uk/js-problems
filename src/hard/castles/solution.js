@@ -1,14 +1,14 @@
 function mapInit() {
     const castles = 5
     const rooms = 7
-    const baseChance = 85
+    const baseChance = 0
     const baseReward = 10
     const castleLayout = []
     for (let i = 1; i <= castles; i++) {
         const roomLayout = []
         for (let j = 1; j <= rooms; j++) {
             const roomElements = {
-                monster: baseChance - (15 * i) - j,
+                monster: baseChance + 3* (6 * i) + j,
                 treasure: baseReward * (Math.pow(i,2))
             }
             roomLayout.push(roomElements)
@@ -28,7 +28,7 @@ function doBluff() {
 }
 
 function doBattle(winThreshold) {
-    return rollDice() < winThreshold
+    return rollDice() > winThreshold
 }
 
 function castles() {
@@ -52,12 +52,12 @@ function castles() {
             break
         }
     }
-    if (score === 3850) {
+    if (lives !== 0) {
         console.log('You exit the castles with great treasures.')
         console.log('Victory!')
     }
     return score
 }
 
-//console.log(mapInit())
+// console.log(mapInit())
 console.log('Your score for this run is', castles(),'.')
