@@ -1,6 +1,5 @@
 const ratingsAdjuster = (ratings, minThreshold, maxThreshold) => {
-  const adjustedRatings = [...ratings];
-  
+  const adjustedRatings = [...ratings]
   for( let i = 0; i < adjustedRatings.length; i++ ) {
       if ( ratings[i] < minThreshold) {
           adjustedRatings[i] = minThreshold
@@ -8,11 +7,9 @@ const ratingsAdjuster = (ratings, minThreshold, maxThreshold) => {
           adjustedRatings[i] = maxThreshold
       } 
   }
-  return adjustedRatings;
+  return adjustedRatings
 }
-
-const ratings = [1,3,5,7,9];
-const min = 3;
-const max = 7;
-
-console.log(ratingsAdjuster(ratings, min, max));
+const ratings = [1,3,5,7,9]
+const min = 3
+const max = 7
+console.log(ratingsAdjuster(ratings, min, max)) // 3 , 3 5 , 7 ,7
